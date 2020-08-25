@@ -1,8 +1,11 @@
 language: node_js
-
 node_js:
-  - "12"
-
+- '12'
 script:
-    - npm test
-    - npm run build
+- npm test
+- npm run build
+deploy:
+  provider: heroku
+  app: chefhook
+  api_key:
+    secure: Zm0PhYgNVLF4Jr7Y19B0r0qPNVymrl3CWZ3rWV2yn4o9aWRWvYIeWNytwu0d2bvAEOtAZXcvGGSex5s1YMCIBTMFjfmS5vDP7+ulB4j57/Z8kncfraNatZXLl7oWW7Hk0QFb6QDB003ZL1ZJojrt4z4qHpKEMMgXktDwPPbkc0HPhiLKl/WCMplGquoKldRuQjhmkI6ynORsG2m5qSDQo6JWJCq8dz78eHKBxUNY6nMu3uXtl7pja0FYB8m9o+JD8U5B6x/hKBTelJtHvhTwb5RLym5GiRFnXb5mbj5dIGYvIXsinSoIT6Ofhmt2ow7N4wJQiwMvueH9xsL7i9h/hKM8kTqGHcWfHCZDVJgA8j1GquIEkPxyMeabmeuyUX0OB2AxtMkaXWDvd8pSZO64e3Ty/AYqKiKzG3Jei2/R9RsOZ8O2W/yjD8D3wl/G9FBQE4+Ew97AVehxX0mW/+TplunaGRnjIArQ63HOc87kV7n3D4KUcYEIpz53LW/MM8oo9c+UPvQ6fc6oxG6pHbwlB4xX6ZYJ3dGOSWy2v2FvXKmQy7x0HWUtqbZt4SRgsSjdYDooWQhonDzdxTjOBdj9PmeBPjJfZSYdWlwcqPQouWgL8tHCcjlkW97HIB4WCdWEbqvZ/5eM6c8QVqckBNI8v5mk5E978s07/Y9GxHd07Zk=
