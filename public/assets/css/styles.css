@@ -1,0 +1,195 @@
+.img-fluid.imgCover {
+  transition: transform .3s ease,opacity .3s;
+}
+
+.listOuter {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.listOuter:hover .imgCover {
+  transform: scale(1.2);
+}
+
+.listContent h3 {
+  color: #d71d49;
+}
+
+.col-md-6.listCover {
+  padding: 20px 0;
+}
+
+.col-md-4.imgDiv {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.row.listRow {
+  padding: 15px;
+}
+
+.mainListCover {
+  margin-top: 50px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.highlight-clean {
+  color: #313437;
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.highlight-clean p {
+  color: #7d8285;
+}
+
+.highlight-clean h2 {
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.highlight-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+}
+
+.highlight-clean .buttons {
+  text-align: center;
+}
+
+.highlight-clean .buttons .btn {
+  padding: 16px 32px;
+  margin: 6px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  outline: none;
+  background-color: #ddd;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.footer {
+  padding: 30px 0;
+  background-color: #528f2d;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.intro p, .intro h3 {
+  color: #fff;
+}
+
+.highlight-clean.howTo {
+  background-image: url("../../assets/img/call-to-action-v2.jpg");
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  padding-top: 100px !important;
+  padding-bottom: 95px !important;
+}
+
+.recipeDiv {
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.searchForm input {
+  height: 45px;
+  border-radius: 0;
+  font-size: 20px;
+}
+
+.searchForm button {
+  width: 100%;
+  border-radius: 0;
+  height: 45px;
+  border: none;
+  background-color: #d71d49;
+  font-size: 20px;
+}
+
+.searchForm button:hover {
+  background-color: #410312;
+}
+
+.container.searchFormInner {
+  color: #fff;
+}
+
+.searchFormInner h1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.searchFormInner h3 {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  font-weight: normal;
+}
+
+.searchFormCover {
+  height: 200px;
+}
+
+.searchFormOuter {
+  height: inherit;
+  min-height: initial;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  background-color: rgba(55,9,20,0.61);
+}
+
+.searchFormDiv {
+  background-image: url("../../assets/img/foodhub-slider-main-food-v4.jpg");
+  height: 500px;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.navbar.navbar-light.navbar-expand-md.navDiv {
+  background-color: #d71d49;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: #ffffff;
+  border-radius: 0;
+  border: none;
+}
+
