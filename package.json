@@ -15,7 +15,6 @@
   },
   "scripts": {
     "start": "serve -s build",
-    "build": "react-scripts build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
