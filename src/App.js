@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-
-=======
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 
@@ -92,6 +89,5 @@ const App = () => {
     </div>
   );
 };
->>>>>>> Stashed changes
 
 export default App;
